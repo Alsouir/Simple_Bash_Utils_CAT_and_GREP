@@ -1,0 +1,505 @@
+-e cat test.txt
+-v cat test.txt
+-c cat test.txt
+-l cat test.txt
+-n cat test.txt
+-h cat test.txt
+-i cat test.txt
+-s cat test.txt
+-o cat test.txt
+-f ftest.txt test.txt
+-e cat test.txt text.txt
+-i cat test.txt text.txt
+-v cat test.txt text.txt
+-c cat test.txt text.txt
+-l cat test.txt text.txt
+-n cat test.txt text.txt
+-h cat test.txt text.txt
+-s cat test.txt text.txt
+-e ^cat test.txt
+-i ^cat test.txt
+-v ^cat test.txt
+-c ^cat test.txt
+-l ^cat test.txt
+-n ^cat test.txt
+-h ^cat test.txt
+-s ^cat test.txt
+-e ^cat test.txt text.txt
+-i ^cat test.txt text.txt
+-v ^cat test.txt text.txt
+-c ^cat test.txt text.txt
+-l ^cat test.txt text.txt
+-n ^cat test.txt text.txt
+-h ^cat test.txt text.txt
+-s ^cat test.txt text.txt
+-e cat -i test.txt
+-e cat -v test.txt
+-e cat -c test.txt
+-e cat -l test.txt
+-e cat -n test.txt
+-e cat -h test.txt
+-e cat -s test.txt
+-e cat -o test.txt
+-e cat -i test.txt text.txt
+-e cat -v test.txt text.txt
+-e cat -c test.txt text.txt
+-e cat -l test.txt text.txt
+-e cat -n test.txt text.txt
+-e cat -h test.txt text.txt
+-e cat -s test.txt text.txt
+-e cat -i -v test.txt 
+-e cat -i -c test.txt 
+-e cat -i -l test.txt 
+-e cat -i -n test.txt 
+-e cat -i -h test.txt 
+-e cat -i -s test.txt 
+-e cat -v -i test.txt 
+-e cat -v -c test.txt 
+-e cat -v -l test.txt 
+-e cat -v -n test.txt 
+-e cat -v -h test.txt 
+-e cat -v -s test.txt 
+-e cat -c -i test.txt 
+-e cat -c -v test.txt 
+-e cat -c -l test.txt 
+-e cat -c -n test.txt 
+-e cat -c -h test.txt 
+-e cat -c -s test.txt 
+-e cat -l -i test.txt 
+-e cat -l -v test.txt 
+-e cat -l -c test.txt 
+-e cat -l -n test.txt 
+-e cat -l -h test.txt 
+-e cat -l -s test.txt 
+-e cat -n -i test.txt 
+-e cat -n -v test.txt 
+-e cat -n -c test.txt 
+-e cat -n -l test.txt 
+-e cat -n -h test.txt 
+-e cat -n -s test.txt 
+-e cat -h -i test.txt 
+-e cat -h -v test.txt 
+-e cat -h -c test.txt 
+-e cat -h -l test.txt 
+-e cat -h -n test.txt 
+-e cat -h -s test.txt 
+-e cat -s -i test.txt 
+-e cat -s -v test.txt 
+-e cat -s -c test.txt 
+-e cat -s -l test.txt 
+-e cat -s -n test.txt 
+-e cat -s -h test.txt 
+-e cat -i -v -c test.txt
+-e cat -i -v -l test.txt
+-e cat -i -v -n test.txt
+-e cat -i -v -h test.txt
+-e cat -i -v -s test.txt
+-e cat -i -c -v test.txt
+-e cat -i -c -l test.txt
+-e cat -i -c -n test.txt
+-e cat -i -c -h test.txt
+-e cat -i -c -s test.txt
+-e cat -i -l -v test.txt
+-e cat -i -l -c test.txt
+-e cat -i -l -n test.txt
+-e cat -i -l -h test.txt
+-e cat -i -l -s test.txt
+-e cat -i -n -v test.txt
+-e cat -i -n -c test.txt
+-e cat -i -n -l test.txt
+-e cat -i -n -h test.txt
+-e cat -i -n -s test.txt
+-e cat -i -h -v test.txt
+-e cat -i -h -c test.txt
+-e cat -i -h -l test.txt
+-e cat -i -h -n test.txt
+-e cat -i -h -s test.txt
+-e cat -i -s -v test.txt
+-e cat -i -s -c test.txt
+-e cat -i -s -l test.txt
+-e cat -i -s -n test.txt
+-e cat -i -s -h test.txt
+-e cat -v -i -c test.txt
+-e cat -v -i -l test.txt
+-e cat -v -i -n test.txt
+-e cat -v -i -h test.txt
+-e cat -v -i -s test.txt
+-e cat -v -c -i test.txt
+-e cat -v -c -l test.txt
+-e cat -v -c -n test.txt
+-e cat -v -c -h test.txt
+-e cat -v -c -s test.txt
+-e cat -v -l -i test.txt
+-e cat -v -l -c test.txt
+-e cat -v -l -n test.txt
+-e cat -v -l -h test.txt
+-e cat -v -l -s test.txt
+-e cat -v -n -i test.txt
+-e cat -v -n -c test.txt
+-e cat -v -n -l test.txt
+-e cat -v -n -h test.txt
+-e cat -v -n -s test.txt
+-e cat -v -h -i test.txt
+-e cat -v -h -c test.txt
+-e cat -v -h -l test.txt
+-e cat -v -h -n test.txt
+-e cat -v -h -s test.txt
+-e cat -v -s -i test.txt
+-e cat -v -s -c test.txt
+-e cat -v -s -l test.txt
+-e cat -v -s -n test.txt
+-e cat -v -s -h test.txt
+-e cat -c -i -v test.txt
+-e cat -c -i -l test.txt
+-e cat -c -i -n test.txt
+-e cat -c -i -h test.txt
+-e cat -c -i -s test.txt
+-e cat -c -v -i test.txt
+-e cat -c -v -l test.txt
+-e cat -c -v -n test.txt
+-e cat -c -v -h test.txt
+-e cat -c -v -s test.txt
+-e cat -c -l -i test.txt
+-e cat -c -l -v test.txt
+-e cat -c -l -n test.txt
+-e cat -c -l -h test.txt
+-e cat -c -l -s test.txt
+-e cat -c -n -i test.txt
+-e cat -c -n -v test.txt
+-e cat -c -n -l test.txt
+-e cat -c -n -h test.txt
+-e cat -c -n -s test.txt
+-e cat -c -h -i test.txt
+-e cat -c -h -v test.txt
+-e cat -c -h -l test.txt
+-e cat -c -h -n test.txt
+-e cat -c -h -s test.txt
+-e cat -c -s -i test.txt
+-e cat -c -s -v test.txt
+-e cat -c -s -l test.txt
+-e cat -c -s -n test.txt
+-e cat -c -s -h test.txt
+-e cat -l -i -v test.txt
+-e cat -l -i -c test.txt
+-e cat -l -i -n test.txt
+-e cat -l -i -h test.txt
+-e cat -l -i -s test.txt
+-e cat -l -v -i test.txt
+-e cat -l -v -c test.txt
+-e cat -l -v -n test.txt
+-e cat -l -v -h test.txt
+-e cat -l -v -s test.txt
+-e cat -l -c -i test.txt
+-e cat -l -c -v test.txt
+-e cat -l -c -n test.txt
+-e cat -l -c -h test.txt
+-e cat -l -c -s test.txt
+-e cat -l -n -i test.txt
+-e cat -l -n -v test.txt
+-e cat -l -n -c test.txt
+-e cat -l -n -h test.txt
+-e cat -l -n -s test.txt
+-e cat -l -h -i test.txt
+-e cat -l -h -v test.txt
+-e cat -l -h -c test.txt
+-e cat -l -h -n test.txt
+-e cat -l -h -s test.txt
+-e cat -l -s -i test.txt
+-e cat -l -s -v test.txt
+-e cat -l -s -c test.txt
+-e cat -l -s -n test.txt
+-e cat -l -s -h test.txt
+-e cat -n -i -v test.txt
+-e cat -n -i -c test.txt
+-e cat -n -i -l test.txt
+-e cat -n -i -h test.txt
+-e cat -n -i -s test.txt
+-e cat -n -v -i test.txt
+-e cat -n -v -c test.txt
+-e cat -n -v -l test.txt
+-e cat -n -v -h test.txt
+-e cat -n -v -s test.txt
+-e cat -n -c -i test.txt
+-e cat -n -c -v test.txt
+-e cat -n -c -l test.txt
+-e cat -n -c -h test.txt
+-e cat -n -c -s test.txt
+-e cat -n -l -i test.txt
+-e cat -n -l -v test.txt
+-e cat -n -l -c test.txt
+-e cat -n -l -h test.txt
+-e cat -n -l -s test.txt
+-e cat -n -h -i test.txt
+-e cat -n -h -v test.txt
+-e cat -n -h -c test.txt
+-e cat -n -h -l test.txt
+-e cat -n -h -s test.txt
+-e cat -n -s -i test.txt
+-e cat -n -s -v test.txt
+-e cat -n -s -c test.txt
+-e cat -n -s -l test.txt
+-e cat -n -s -h test.txt
+-e cat -h -i -v test.txt
+-e cat -h -i -c test.txt
+-e cat -h -i -l test.txt
+-e cat -h -i -n test.txt
+-e cat -h -i -s test.txt
+-e cat -h -v -i test.txt
+-e cat -h -v -c test.txt
+-e cat -h -v -l test.txt
+-e cat -h -v -n test.txt
+-e cat -h -v -s test.txt
+-e cat -h -c -i test.txt
+-e cat -h -c -v test.txt
+-e cat -h -c -l test.txt
+-e cat -h -c -n test.txt
+-e cat -h -c -s test.txt
+-e cat -h -l -i test.txt
+-e cat -h -l -v test.txt
+-e cat -h -l -c test.txt
+-e cat -h -l -n test.txt
+-e cat -h -l -s test.txt
+-e cat -h -n -i test.txt
+-e cat -h -n -v test.txt
+-e cat -h -n -c test.txt
+-e cat -h -n -l test.txt
+-e cat -h -n -s test.txt
+-e cat -h -s -i test.txt
+-e cat -h -s -v test.txt
+-e cat -h -s -c test.txt
+-e cat -h -s -l test.txt
+-e cat -h -s -n test.txt
+-e cat -s -i -v test.txt
+-e cat -s -i -c test.txt
+-e cat -s -i -l test.txt
+-e cat -s -i -n test.txt
+-e cat -s -i -h test.txt
+-e cat -s -v -i test.txt
+-e cat -s -v -c test.txt
+-e cat -s -v -l test.txt
+-e cat -s -v -n test.txt
+-e cat -s -v -h test.txt
+-e cat -s -c -i test.txt
+-e cat -s -c -v test.txt
+-e cat -s -c -l test.txt
+-e cat -s -c -n test.txt
+-e cat -s -c -h test.txt
+-e cat -s -l -i test.txt
+-e cat -s -l -v test.txt
+-e cat -s -l -c test.txt
+-e cat -s -l -n test.txt
+-e cat -s -l -h test.txt
+-e cat -s -n -i test.txt
+-e cat -s -n -v test.txt
+-e cat -s -n -c test.txt
+-e cat -s -n -l test.txt
+-e cat -s -n -h test.txt
+-e cat -s -h -i test.txt
+-e cat -s -h -v test.txt
+-e cat -s -h -c test.txt
+-e cat -s -h -l test.txt
+-e cat -s -h -n test.txt
+-e cat -i -v test.txt text.txt
+-e cat -i -c test.txt text.txt
+-e cat -i -l test.txt text.txt
+-e cat -i -n test.txt text.txt
+-e cat -i -h test.txt text.txt
+-e cat -i -s test.txt text.txt
+-e cat -v -i test.txt text.txt
+-e cat -v -c test.txt text.txt
+-e cat -v -l test.txt text.txt
+-e cat -v -n test.txt text.txt
+-e cat -v -h test.txt text.txt
+-e cat -v -s test.txt text.txt
+-e cat -c -i test.txt text.txt
+-e cat -c -v test.txt text.txt
+-e cat -c -l test.txt text.txt
+-e cat -c -n test.txt text.txt
+-e cat -c -h test.txt text.txt
+-e cat -c -s test.txt text.txt
+-e cat -l -i test.txt text.txt
+-e cat -l -v test.txt text.txt
+-e cat -l -c test.txt text.txt
+-e cat -l -n test.txt text.txt
+-e cat -l -h test.txt text.txt
+-e cat -l -s test.txt text.txt
+-e cat -n -i test.txt text.txt
+-e cat -n -v test.txt text.txt
+-e cat -n -c test.txt text.txt
+-e cat -n -l test.txt text.txt
+-e cat -n -h test.txt text.txt
+-e cat -n -s test.txt text.txt
+-e cat -h -i test.txt text.txt
+-e cat -h -v test.txt text.txt
+-e cat -h -c test.txt text.txt
+-e cat -h -l test.txt text.txt
+-e cat -h -n test.txt text.txt
+-e cat -h -s test.txt text.txt
+-e cat -s -i test.txt text.txt
+-e cat -s -v test.txt text.txt
+-e cat -s -c test.txt text.txt
+-e cat -s -l test.txt text.txt
+-e cat -s -n test.txt text.txt
+-e cat -s -h test.txt text.txt
+-e cat -iv test.txt
+-e cat -ic test.txt
+-e cat -il test.txt
+-e cat -in test.txt
+-e cat -ih test.txt
+-e cat -is test.txt
+-e cat -vi test.txt
+-e cat -vc test.txt
+-e cat -vl test.txt
+-e cat -vn test.txt
+-e cat -vh test.txt
+-e cat -vs test.txt
+-e cat -ci test.txt
+-e cat -cv test.txt
+-e cat -cl test.txt
+-e cat -cn test.txt
+-e cat -ch test.txt
+-e cat -cs test.txt
+-e cat -li test.txt
+-e cat -lv test.txt
+-e cat -lc test.txt
+-e cat -ln test.txt
+-e cat -lh test.txt
+-e cat -ls test.txt
+-e cat -ni test.txt
+-e cat -nv test.txt
+-e cat -nc test.txt
+-e cat -nl test.txt
+-e cat -nh test.txt
+-e cat -ns test.txt
+-e cat -hi test.txt
+-e cat -hv test.txt
+-e cat -hc test.txt
+-e cat -hl test.txt
+-e cat -hn test.txt
+-e cat -hs test.txt
+-e cat -si test.txt
+-e cat -sv test.txt
+-e cat -sc test.txt
+-e cat -sl test.txt
+-e cat -sn test.txt
+-e cat -sh test.txt
+-e cat -ivc test.txt text.txt
+-e cat -ivl test.txt text.txt
+-e cat -ivn test.txt text.txt
+-e cat -ivh test.txt text.txt
+-e cat -icv test.txt text.txt
+-e cat -icl test.txt text.txt
+-e cat -icn test.txt text.txt
+-e cat -ich test.txt text.txt
+-e cat -ilv test.txt text.txt
+-e cat -ilc test.txt text.txt
+-e cat -iln test.txt text.txt
+-e cat -ilh test.txt text.txt
+-e cat -inv test.txt text.txt
+-e cat -inc test.txt text.txt
+-e cat -inl test.txt text.txt
+-e cat -inh test.txt text.txt
+-e cat -ihv test.txt text.txt
+-e cat -ihc test.txt text.txt
+-e cat -ihl test.txt text.txt
+-e cat -ihn test.txt text.txt
+-e cat -vic test.txt text.txt
+-e cat -vil test.txt text.txt
+-e cat -vin test.txt text.txt
+-e cat -vih test.txt text.txt
+-e cat -vci test.txt text.txt
+-e cat -vcl test.txt text.txt
+-e cat -vcn test.txt text.txt
+-e cat -vch test.txt text.txt
+-e cat -vli test.txt text.txt
+-e cat -vlc test.txt text.txt
+-e cat -vln test.txt text.txt
+-e cat -vlh test.txt text.txt
+-e cat -vni test.txt text.txt
+-e cat -vnc test.txt text.txt
+-e cat -vnl test.txt text.txt
+-e cat -vnh test.txt text.txt
+-e cat -vhi test.txt text.txt
+-e cat -vhc test.txt text.txt
+-e cat -vhl test.txt text.txt
+-e cat -vhn test.txt text.txt
+-e cat -civ test.txt text.txt
+-e cat -cil test.txt text.txt
+-e cat -cin test.txt text.txt
+-e cat -cih test.txt text.txt
+-e cat -cvi test.txt text.txt
+-e cat -cvl test.txt text.txt
+-e cat -cvn test.txt text.txt
+-e cat -cvh test.txt text.txt
+-e cat -cli test.txt text.txt
+-e cat -clv test.txt text.txt
+-e cat -cln test.txt text.txt
+-e cat -clh test.txt text.txt
+-e cat -cni test.txt text.txt
+-e cat -cnv test.txt text.txt
+-e cat -cnl test.txt text.txt
+-e cat -cnh test.txt text.txt
+-e cat -chi test.txt text.txt
+-e cat -chv test.txt text.txt
+-e cat -chl test.txt text.txt
+-e cat -chn test.txt text.txt
+-e cat -liv test.txt text.txt
+-e cat -lic test.txt text.txt
+-e cat -lin test.txt text.txt
+-e cat -lih test.txt text.txt
+-e cat -lvi test.txt text.txt
+-e cat -lvc test.txt text.txt
+-e cat -lvn test.txt text.txt
+-e cat -lvh test.txt text.txt
+-e cat -lci test.txt text.txt
+-e cat -lcv test.txt text.txt
+-e cat -lcn test.txt text.txt
+-e cat -lch test.txt text.txt
+-e cat -lni test.txt text.txt
+-e cat -lnv test.txt text.txt
+-e cat -lnc test.txt text.txt
+-e cat -lnh test.txt text.txt
+-e cat -lhi test.txt text.txt
+-e cat -lhv test.txt text.txt
+-e cat -lhc test.txt text.txt
+-e cat -lhn test.txt text.txt
+-e cat -niv test.txt text.txt
+-e cat -nic test.txt text.txt
+-e cat -nil test.txt text.txt
+-e cat -nih test.txt text.txt
+-e cat -nvi test.txt text.txt
+-e cat -nvc test.txt text.txt
+-e cat -nvl test.txt text.txt
+-e cat -nvh test.txt text.txt
+-e cat -nci test.txt text.txt
+-e cat -ncv test.txt text.txt
+-e cat -ncl test.txt text.txt
+-e cat -nch test.txt text.txt
+-e cat -nli test.txt text.txt
+-e cat -nlv test.txt text.txt
+-e cat -nlc test.txt text.txt
+-e cat -nlh test.txt text.txt
+-e cat -nhi test.txt text.txt
+-e cat -nhv test.txt text.txt
+-e cat -nhc test.txt text.txt
+-e cat -nhl test.txt text.txt
+-e cat -hiv test.txt text.txt
+-e cat -hic test.txt text.txt
+-e cat -hil test.txt text.txt
+-e cat -hin test.txt text.txt
+-e cat -hvi test.txt text.txt
+-e cat -hvc test.txt text.txt
+-e cat -hvl test.txt text.txt
+-e cat -hvn test.txt text.txt
+-e cat -hci test.txt text.txt
+-e cat -hcv test.txt text.txt
+-e cat -hcl test.txt text.txt
+-e cat -hcn test.txt text.txt
+-e cat -hli test.txt text.txt
+-e cat -hlv test.txt text.txt
+-e cat -hlc test.txt text.txt
+-e cat -hln test.txt text.txt
+-e cat -hni test.txt text.txt
+-e cat -hnv test.txt text.txt
+-e cat -hnc test.txt text.txt
+-e cat -hnl test.txt text.txt
